@@ -1,16 +1,40 @@
-### Hi there 👋
+```python
+class BlueGoldfield:
 
-<!--
-**BlueGoldfield/BlueGoldfield** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    def __init__(self) -> None:
+        
+        self.username = "BlueGoldfield"
+        self.name = "Rafael Zaccaro"
+        self.occupation = "University student"
+        self.location = "Brazil"
+        self.languages = {
+            'Programming': {
+                'frontend': ['HTML', 'CSS', 'JavaScript'],
+                'backend': ['Python', 'NodeJS', 'PHP'],
+                'database': ['MySQL', 'SQLite3', 'MongoDB'],
+                'mobile': ['Dart/Flutter'],
+                'other': ['Java', 'C', 'C#']
+            },
+            'Human': {
+                'Portuguese': 'First language', 
+                'English': 'Fluent', 
+                'German': 'Beginner'
+            }
+        }
+        self.tools = {
+            'OS': ['Windows', 'Linux'],
+            'IDE/Code Editor': ['VSCode', 'NetBeans', 'Visual Studio 2017'],
+            'Community': ['Discord', 'GitHub']
+        }
+        self.contact = {
+            'Twitter': '@BlueGoldfield',
+            'Discord': 'Rafaeł#9171',
+            'E-Mail': 'rafael.zaccaro2@gmail.com'
+        }
+    
+    def say_hello(self) -> str:
+        return "Hello there! Welcome to my GitHub and thank you for dropping by!"
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+me = BlueGoldfield()
+me.say_hello()
+```
