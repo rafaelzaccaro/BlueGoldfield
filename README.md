@@ -23,8 +23,8 @@ class BlueGoldfield:
         }
         self.tools = {
             'OS': ['Windows', 'Linux'],
-            'IDE/Code Editor': ['VSCode', 'NetBeans', 'Visual Studio 2017'],
-            'Community': ['Discord', 'GitHub']
+            'IDE/Code Editor': ['VSCode', 'Visual Studio 2022'],
+            'Social': ['Discord', 'GitHub']
         }
         self.contact = {
             'Twitter': '@BlueGoldfield',
